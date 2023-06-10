@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-div{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center  ;
+  background-color: #f1f5f8;
+}
+
+.center-div{
+  background-color: #ffff;
+    width: 40%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 0px rgba(78, 77, 77, 0.5);
+    border-radius: 4px;
+}
+
+h1{
+  color: #063251;
+}
+
+.grocery{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.grocery input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #f1f5f8;
+  border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.btn{
+  background: #a5d5f8;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-transform: capitalize;
+    border: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #49a6e9 ;
+}
+
+.grocery-list{
+ width: 90%;
+ text-align: left;
+ margin: 1rem auto;
+ text-align: center;
+}
+
+.grocery-list-items{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+
+.icons{
+  cursor: pointer;
+}
+
+.clear-btn{
+  background-color: transparent;
+  border: none;
+  text-transform: capitalize;
+  margin: 2rem auto;
+  font-size: 1rem;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.alert p{
+  font-size: .75rem;
+  margin: 2rem auto 0 auto;
+  width: 60%;
+  padding: .3rem 3rem;
+  border-radius: .5rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  
+}
+
+@media (max-width:768px){
+  html{
+    font-size: 62.5%;
+  }
+}
